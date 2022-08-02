@@ -3,7 +3,7 @@ const cors = require('cors')
 //Crear servidor
 const app = express();
 
-//Middleware. Habilito para que se puedan enviar JSON a la API
+//Middleware. Habilito para que se puedan enviar JSON a la API/
 app.use(cors())
 app.use(express.json())
 
