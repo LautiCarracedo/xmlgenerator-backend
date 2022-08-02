@@ -1,0 +1,41 @@
+{
+    "origenPSRM":{
+        "tagGeneral": ["banco", "nroTransaccion", "nroRendicion", "fechaRendicion", "cbuOrigen", "cuitOrigen", "cbuDestino",
+            "cuitDestino", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+            "totalImpDepositado", "totalImpADepositar", "totalImpAnulacionTimbradoras", "totalImpComision", "totalImpIVA"],
+        "tagSucursal": ["sucursal", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+                    "totalImpDepositado", "totalImpADepositar", "totalImpAnulacionTimbradoras","totalImpComision", "totalImpIVA"],
+        "tagPagos": ["codigoRegistro", "caja", "cajero","fechaAcreditacion", "lote", "registros", "totalImpDeterminado", "totalImpPagado", 
+                "totalImpComision", "totalImpIVA"],
+        "tagDetallePago": ["codigoRegistro", "nroRegistro", "impuesto", "fechaVencimiento", "idObjetoImponible", "nroControl", "marcaMovimiento","tipoOperacion", "tipoRendicion",
+                        "moneda", "nroLiquidacionOriginal", "nroLiquidacionActualizado", "obligacion", "barra1", "barra2", "fechaPago", "impDeterminado",
+                        "impPagado", "impComision", "impIVA","nroComercio", "cantCuotas", "idObjetoImponible", "obligacion"]
+
+    },
+    "origenOTAX":{
+        "tagGeneral": ["banco", "nroTransaccion", "nroRendicion", "fechaRendicion", "cbuOrigen", "cuitOrigen", "cbuDestino",
+            "cuitDestino", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+            "totalImpDepositado", "totalImpADepositar", "totalImpAnulacionTimbradoras", "totalImpComision", "totalImpIVA"],
+        "tagSucursal": ["sucursal", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+                    "totalImpDepositado", "totalImpADepositar", "totalImpAnulacionTimbradoras","totalImpComision", "totalImpIVA"],
+        "tagPagos": ["codigoRegistro", "caja", "cajero","fechaAcreditacion", "lote", "registros", "totalImpDeterminado", "totalImpPagado", 
+                "totalImpComision", "totalImpIVA"],
+        "tagDetallePago": ["codigoRegistro", "nroRegistro", "impuesto", "fechaVencimiento", "idObjetoImponible", "nroControl", "marcaMovimiento","tipoOperacion", "tipoRendicion",
+                        "moneda", "nroLiquidacionOriginal", "nroLiquidacionActualizado", "obligacion", "barra1", "barra2", "fechaPago", "impDeterminado",
+                        "impPagado", "impComision", "impIVA","nroComercio", "cantCuotas", "idObjetoImponible", "obligacion"]
+
+    },
+    "origenGANT":{
+        "tagGeneral": ["banco", "nroTransaccion", "nroRendicion", "fechaRendicion", "cbuOrigen", "cuitOrigen", "cbuDestino",
+            "cuitDestino", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+            "totalImpDepositado", "totalImpADepositar", "totalImpAnulacionTimbradoras", "totalImpComision", "totalImpIVA"],
+        "tagSucursal": ["sucursal", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+                    "totalImpDepositado", "totalImpADepositar", "totalImpAnulacionTimbradoras","totalImpComision", "totalImpIVA"],
+        "tagPagos": ["codigoRegistro", "caja", "cajero","fechaAcreditacion", "lote", "registros", "totalImpDeterminado", "totalImpPagado", 
+                "totalImpComision", "totalImpIVA"],
+        "tagDetallePago": ["codigoRegistro", "nroRegistro", "impuesto", "fechaVencimiento", "idObjetoImponible", "nroControl", "marcaMovimiento","tipoOperacion", "tipoRendicion",
+                        "moneda", "nroLiquidacionOriginal", "nroLiquidacionActualizado", "obligacion", "barra1", "barra2", "fechaPago", "impDeterminado",
+                        "impPagado", "impComision", "impIVA","nroComercio", "cantCuotas", "idObjetoImponible", "obligacion"]
+        
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "camposTagGeneral": ["banco", "nroTransaccion", "nroRendicion", "fechaRendicion", "cbuOrigen", "cuitOrigen",
+                        "cbuDestino", "cuitDestino", "registros", "totalImpDeterminado", "totalImpPagado", 
+                        "totalImpRecaudado", "totalImpDepositado", "totalImpADepositar", "totalImpComision", 
+                        "totalImpIVA"],
+    "camposTagSucursal": ["sucursal", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+                        "totalImpDepositado", "totalImpADepositar", "totalImpComision", "totalImpIVA"],
+    "camposTagPagos": ["codigoRegistro", "caja", "cajero","fechaAcreditacion", "lote", "registros", "totalImpRecaudado",
+                        "totalImpDepositado", "totalImpADepositar", "totalImpComision", "totalImpIVA"],
+    "camposTagDetallePago": ["codigoRegistro", "nroRegistro", "codigoER", "sucursal", "boletaDeposito", "fechaEmision",
+                            "nroControl", "fechaDeposito", "impRecaudado", "impDepositado", "impADepositar", 
+                            "impComision", "impIVA"]
+}
